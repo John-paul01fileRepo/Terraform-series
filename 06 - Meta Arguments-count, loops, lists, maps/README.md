@@ -21,7 +21,7 @@
 
 ## Step-02: variables.tf - Lists and Maps
 ```t
-# AWS EC2 Instance Type - List
+# AWS EC2 Instance type - List
 variable "instance_type_list" {
   description = "EC2 Instance Type"
   type = list(string)
